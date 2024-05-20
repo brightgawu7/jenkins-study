@@ -13,7 +13,7 @@ pipeline{
                 sh '''
                     echo "Using a multi-line shell step"
                     chmod +x text.sh
-                    .test.sh
+                    ./text.sh
                 '''
             }
         }
