@@ -10,7 +10,7 @@ pipeline{
             steps {
                 echo "Hello Bright Edem $DEMO "
                 
-                bat "./text.sh"
+                bat "docker images"
             }
         }
     }
